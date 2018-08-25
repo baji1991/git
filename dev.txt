@@ -1,1 +1,13 @@
-sarya
+isarya
+galaxy
+galaxy
+ git commit -am 'changed bar to barred'
+$ git checkout master   # change back to master branch galaxy
+$ vim astrophy_obj.txt  galaxy
+# add the word `galaxy` to the end of each line using Vim REGEX 
+# type `:%s/$/ galaxy/g` in Vim then press enter and save `:wq`
+galaxy
+$ git commit -am 'added galaxy to each line'
+# merge from the astrophy_objects branch to current branch, i.e. master galaxy
+$ git merge astrophy_objects  galaxy
+
